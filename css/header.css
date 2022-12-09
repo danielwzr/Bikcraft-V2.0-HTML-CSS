@@ -1,0 +1,15 @@
+.header{
+    background-color: var(--c12);
+    color: var(--w);
+}
+
+header{   
+    align-items: center;
+    height: 96px;
+}
+
+.menu li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: var(--w);
+}

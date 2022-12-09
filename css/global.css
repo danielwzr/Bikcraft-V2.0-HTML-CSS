@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: " Roboto", Arial, sans-serif;
+    outline: 1px solid red;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.gap20{
+    gap: 1.250rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.direction-column{
+    flex-direction: column;
+}

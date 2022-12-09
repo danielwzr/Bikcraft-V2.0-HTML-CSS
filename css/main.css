@@ -1,0 +1,23 @@
+.main{
+    background-color: var(--c12);
+}
+
+main{
+    align-items: center;
+}
+
+main h1{
+    color: var(--w);
+}
+
+main p{
+    color: var(--w);
+}
+
+main a{
+    padding: 10px 12px;
+    display: inline-block;
+    background-color: var(--p1);
+    text-transform: uppercase;
+    border-radius: 5px;
+}
