@@ -1,9 +1,7 @@
-.main{
-    background-color: var(--c12);
-}
-
 main{
     align-items: center;
+    overflow: visible;
+    background-color: var(--c12);
 }
 
 main h1{
@@ -11,13 +9,23 @@ main h1{
 }
 
 main p{
-    color: var(--w);
+    color: var(--c5);
 }
 
 main a{
-    padding: 10px 12px;
+    padding: 14px 24px;
     display: inline-block;
     background-color: var(--p1);
-    text-transform: uppercase;
+    text-transform: uppercase; 
+    border-radius: 3px;
+    text-align: center;
+    color: var(--p5);
+}
+
+main h1 span{
+    color: var(--p1);
+}
+
+main img{
     border-radius: 5px;
 }

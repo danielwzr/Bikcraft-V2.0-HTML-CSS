@@ -1,9 +1,27 @@
-@import url('global.css');
 @import url('colors.css');
 @import url('fonts.css');
 @import url('header.css');
 @import url('main.css');
 
-body{
-    background: var(--p);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+    /* outline: 1px solid red; */
 }
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
