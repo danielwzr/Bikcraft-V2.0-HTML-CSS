@@ -1,0 +1,75 @@
+.vitrine-bg{
+    background-color: var(--c0);
+    padding-top: 16px;
+}
+
+.vitrine-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.vitrine-container h1{  
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 16px 0px;
+}
+
+.vitrine{
+    display: flex;
+    gap: 40px;
+    margin-top: 16px;
+    padding-bottom: 24px;
+}
+
+.vitrine a{
+    display: block;
+}
+
+.vitrine a:visited{
+    color: inherit;
+}
+
+.vitrine a:hover img{
+    opacity: 0.8;
+}
+
+.vitrine a:hover h3::before{
+    width: 24px;
+    transition: 0.3s ease;
+}
+
+.anuncio{
+    flex: 1;
+    min-width: 280px;
+}
+
+.anuncio img{
+    margin-bottom: 16px;
+}
+
+.anuncio h3{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.anuncio p{
+    padding-left: 20px;
+}
+
+.anuncio h3::before{
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-right: 0.5rem;
+    background-color: var(--p1);
+}
+
+@media (max-width: 800px){
+    .vitrine{
+        gap: 20px;
+        overflow-x: auto;
+    }
+}

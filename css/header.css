@@ -1,10 +1,9 @@
 .header-bg {
     background-color: var(--c12);
-    color: var(--w);
     height: 96px;
 }
 
-.header {
+.header-container {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -22,10 +21,10 @@
 }
 
 .header-menu a {
-    color: var(--w);
     padding: 16px 0px;
     display: inline-block;
     position: relative;
+    color: inherit;
 }
 
 .header-menu a:after{
@@ -62,7 +61,10 @@
 }
 
 @media (max-width: 600px) {
-    .header {
+    .header-bg{
+        padding-bottom: 140px;
+    }
+    .header-container {
         flex-direction: column;
     }
 
