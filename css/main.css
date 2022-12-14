@@ -4,11 +4,9 @@
     box-shadow:  inset 0px -100px var(--c0);
 }
 
-.introducao-container{
+.introducao{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 0px 20px;
     gap: 0px 40px;
 }
@@ -37,7 +35,7 @@ main img{
     .introducao-bg{
         padding-top: 16px;
     }
-    .introducao-container{
+    .introducao{
         grid-template-columns: 1fr;
         gap: 40px;
     }

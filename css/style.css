@@ -1,9 +1,16 @@
 @import url('colors.css');
 @import url('fonts.css');
+
 @import url('header.css');
+@import url('footer.css');
+
 @import url('main.css');
 @import url('vitrine.css');
 @import url('components.css');
+@import url('personalizacao.css');
+@import url('parceiros.css');
+@import url('depoimento.css');
+@import url('seguros.css');
 
 * {
     margin: 0;
@@ -14,7 +21,7 @@
 }
 
 body{
-    padding-bottom: 600px;
+    /* margin-bottom: 500px; */
 }
 
 ul {
@@ -34,4 +41,3 @@ a {
 img[src$=".jpg"]{
     border-radius: 4px;
 }
-

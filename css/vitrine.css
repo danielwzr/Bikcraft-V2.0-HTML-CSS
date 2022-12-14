@@ -1,33 +1,26 @@
 .vitrine-bg{
     background-color: var(--c0);
     padding-top: 16px;
-}
-
-.vitrine-container{
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0px 20px;
-}
-
-.vitrine-container h1{  
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 60px 16px 0px;
+    padding-bottom: 80px;
 }
 
 .vitrine{
+    max-width: 1400px;
+    margin: 0 auto;
     display: flex;
     gap: 40px;
     margin-top: 16px;
     padding-bottom: 24px;
+    padding: 0px 20px 0px;
 }
 
 .vitrine a{
     display: block;
+    color: var(--c12);
 }
 
 .vitrine a:visited{
-    color: inherit;
+    color: var(--c12);
 }
 
 .vitrine a:hover img{
@@ -67,7 +60,7 @@
     background-color: var(--p1);
 }
 
-@media (max-width: 800px){
+@media (max-width: 1000px){
     .vitrine{
         gap: 20px;
         overflow-x: auto;

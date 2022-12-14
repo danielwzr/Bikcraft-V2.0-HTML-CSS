@@ -3,15 +3,12 @@
     height: 96px;
 }
 
-.header-container {
+.header {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .header-menu {
@@ -64,7 +61,7 @@
     .header-bg{
         padding-bottom: 140px;
     }
-    .header-container {
+    .header {
         flex-direction: column;
     }
 

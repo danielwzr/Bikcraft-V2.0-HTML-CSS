@@ -43,11 +43,20 @@
 }
 
 .font-2-s{
-    font: 400 1.125rem/1.5 "Roboto", sans-serif;
+    font: 400 1rem/1.5 "Roboto", sans-serif;
 }
 
 .font-2-xs{
-    font: 400 0.825rem/1 "Roboto", sans-serif;
+    font: 400 0.875rem/1 "Roboto", sans-serif;
+}
+
+/* MERRIWEATHER */
+.font-3-i{
+    font-family: "Merriweather", serif;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: 1.4;
 }
 
 @media (max-width: 1200px){    
@@ -55,6 +64,9 @@
         font-size: 3rem !important;
     }
     .font-2-l{
+        font-size: 1.125rem !important;
+    }
+    .font-2-l-b{
         font-size: 1.125rem !important;
     }
 }
