@@ -1,0 +1,124 @@
+.vitrine-bg {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.bicicleta-item {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    position: relative;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bg-dark{
+    background: linear-gradient(to right, var(--c0) 20%, var(--c11) 20%, var(--c11));
+}
+
+.bicicleta-item+.bicicleta-item {
+    /* margin-top: 60px; */
+}
+
+.bicicleta-item a{
+    color: inherit;
+}
+
+.bicicleta-item-detalhe {
+    background-color: var(--p1);
+    width: 12px;
+    height: 8px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.bicicleta-item h2 {
+    margin-bottom: 20px;
+}
+
+.bicicleta-item p {
+    margin-bottom: 2rem;
+}
+
+.bicicleta-item li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bicicleta-item li+li {
+    margin-top: 16px;
+}
+
+.bicicleta-item-img img {
+    object-fit: cover;
+    object-position: right;
+    min-height: 100%;
+}
+
+.bicicleta-item-img{
+    position: relative;
+}
+
+.bicicleta-item-img span{
+    position: absolute;
+    background-color: var(--c12);
+    color: white;
+    top: 20px;
+    right: 0px;
+    padding: 0.5rem 1rem;
+    border-radius: 4px 0 0 4px;
+}
+
+.btn-sobre {
+    position: absolute;
+    bottom: 4rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.btn-sobre::after{
+    content: "";
+    background: url('../../img/icones/seta.svg');
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 8px;
+    transition: 0.3s;
+}
+
+.btn-sobre:hover::after{
+    transform:translateX(8px);
+}
+
+.bicicleta-item:hover .bicicleta-item-detalhe {
+    width: 48px;
+    transition: 0.5s ease;
+}
+
+@media (max-width: 800px){
+    .btn-sobre{
+        position: static;
+        display: block;
+        grid-column-start: 2;
+    }
+    .bg-dark{
+        background: var(--c11);
+    }
+}
+
+@media (max-width: 600px){
+    .bicicleta-item{
+        grid-template-columns: 1fr;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .btn-sobre{
+        grid-column-start: 1;
+        width: 100% !important;
+    }
+    .bicicleta-item-img {
+        display: none;
+    }
+}

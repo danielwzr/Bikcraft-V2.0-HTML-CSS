@@ -101,6 +101,11 @@
         display: none;
     }
 
+    .personalizacao div>span{
+        display: block;
+        margin-bottom: 1rem;
+    }
+
     .personalizacao h1 {
         margin-bottom: 1rem;
     }

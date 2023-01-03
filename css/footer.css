@@ -5,7 +5,7 @@ footer {
 
 .footer {
     display: grid;
-    grid-template-columns: 1.5fr 2fr 2fr;
+    grid-template-columns: 1.5fr 2.5fr 2fr;
     gap: 2rem;
 }
 
@@ -32,8 +32,13 @@ footer {
 }
 
 
-.contato a {
+.footer a {
     color: inherit;
+}
+
+.footer a:hover{
+    color: var(--c0);
+    transition: 0.3s ease;
 }
 
 @media (max-width: 800px) {

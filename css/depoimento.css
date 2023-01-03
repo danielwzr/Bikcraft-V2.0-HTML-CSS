@@ -18,7 +18,7 @@
     padding: 40px 40px 80px 80px;
 }
 
-.depoimento-conteudo::before{
+/* .depoimento-conteudo::before{
     content: "";
     background: url("../img/dec/top-left-p.svg");
     width: 40px;
@@ -38,7 +38,7 @@
     position: absolute;
     right: 50px;
     bottom: 50px;
-}
+} */
 
 .depoimento-conteudo p {
     margin-bottom: 32px;

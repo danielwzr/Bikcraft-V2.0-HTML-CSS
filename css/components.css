@@ -38,6 +38,17 @@
         padding: 14px 24px;
         font-size: 1rem !important;
     }
+    .title, .container{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 800px){
+    .title, .container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 @media (max-width: 600px){

@@ -1,0 +1,76 @@
+.vantagens-bg{
+    background: var(--c12);
+}
+
+.vantagens, .perguntas{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.solo-heading {
+    margin-bottom: 90px;
+}
+
+.vantagens-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px 80px;
+}
+
+.perguntas-lista li:nth-child(odd){
+    background-color: var(--c1);
+}
+
+.perguntas-lista li{
+    display: grid;
+    grid-template-columns: 12px 1fr 12px;
+    gap: 0px 16px;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.perguntas-lista li::after{
+    content: '';
+    width: 12px;
+    height: 4px;
+    background: url('../../img/icones/seta-abrir.svg');
+    background-repeat: no-repeat;
+    grid-column: 3/-1;
+    grid-row: 1;
+    transform: rotate(-180deg);
+    transition: 0.3s ease;
+}
+
+.perguntas-lista li:hover::after{
+    transform: rotate(0deg);
+}
+
+.perguntas-lista p{
+    grid-column: 2;
+    max-width: 90ch;
+    margin-top: 1rem;
+}
+
+/* .perguntas-list{
+    display: none;
+} */
+
+.perguntas-lista span{
+    width: 12px;
+    height: 8px;
+    background: var(--p1);
+    align-self: center;
+}
+
+@media (max-width: 800px){
+    .vantagens-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px 60px;
+    }
+}
+
+@media (max-width: 600px){
+    .vantagens-list {
+        grid-template-columns: 1fr;
+    }
+}
