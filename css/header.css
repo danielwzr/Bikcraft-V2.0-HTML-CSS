@@ -23,6 +23,10 @@
     color: inherit;
 }
 
+.header a img{
+    width: 40px;
+}
+
 .header-menu a:after{
     content: "";
     display: block;
